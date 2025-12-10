@@ -1,0 +1,10 @@
+# secrets
+serviceAccountKey.json
+
+# model files (we'll use Git LFS for these, so exclude from regular git)
+*.keras
+*.h5
+*.pkl
+*.pth
+*.pt
+*.joblib
