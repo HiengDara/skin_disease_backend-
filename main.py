@@ -40,7 +40,7 @@ CLASS_NAMES = [
 ]
 
 class SkinDiseaseModel:
-    def __init__(self, model_path: str = "ml_model/best_skin_model.keras"):
+    def __init__(self, model_path: str = "ml_model/best_skin_model_continued.keras"):
         self.model = None
         self.model_path = model_path
         self.input_size = (380, 380)
